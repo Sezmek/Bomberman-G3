@@ -179,6 +179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 20740827}
   - component: {fileID: 20740828}
+  - component: {fileID: 20740829}
   m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
@@ -253,6 +254,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &20740829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20740826}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efac771c34f093e439d41e47cc8f4970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idileSprite: {fileID: 4256812030753675766, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  animationSprites:
+  - {fileID: 4256812030753675766, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: -6067625942347895956, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: 399711461180924593, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: 6510336088310438682, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  AnimationSpeed: 0.1666667
+  loop: 1
+  idlle: 1
 --- !u!1 &490803187
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490803188}
   - component: {fileID: 490803189}
+  - component: {fileID: 490803190}
   m_Layer: 0
   m_Name: Down
   m_TagString: Untagged
@@ -337,6 +360,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &490803190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490803187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efac771c34f093e439d41e47cc8f4970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idileSprite: {fileID: 7745408500511208834, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  animationSprites:
+  - {fileID: 7745408500511208834, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: -5321909696083764040, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: -1615810300593537487, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: -3943012843671661309, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  AnimationSpeed: 0.1666667
+  loop: 1
+  idlle: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3729,6 +3773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648855754}
   - component: {fileID: 1648855755}
+  - component: {fileID: 1648855756}
   m_Layer: 0
   m_Name: Up
   m_TagString: Untagged
@@ -3803,6 +3848,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1648855756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648855753}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efac771c34f093e439d41e47cc8f4970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idileSprite: {fileID: -3719433009349668311, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  animationSprites:
+  - {fileID: -3719433009349668311, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: -3387031413343639996, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: 424803194690471717, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: 8217273701640395558, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  AnimationSpeed: 0.1666667
+  loop: 1
+  idlle: 1
 --- !u!1 &1706790261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,6 +3879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1706790262}
   - component: {fileID: 1706790263}
+  - component: {fileID: 1706790264}
   m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
@@ -3887,6 +3954,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1706790264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706790261}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efac771c34f093e439d41e47cc8f4970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idileSprite: {fileID: -3397826146003677641, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  animationSprites:
+  - {fileID: -3397826146003677641, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: -6776239569245849773, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: 1563432233361630483, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  - {fileID: -3596611211328183871, guid: 04de33a67ba00214b84817677eab986e, type: 3}
+  AnimationSpeed: 0.1666667
+  loop: 1
+  idlle: 1
 --- !u!1 &1866598269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3898,6 +3986,7 @@ GameObject:
   - component: {fileID: 1866598272}
   - component: {fileID: 1866598271}
   - component: {fileID: 1866598270}
+  - component: {fileID: 1866598273}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3914,7 +4003,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1866598269}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 16c01291621b2da409e5e9b4f81bf56a, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3937,7 +4026,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.06, y: -0.5}
+  m_Offset: {x: -0.05, y: -0.4}
   serializedVersion: 2
   m_Radius: 0.5
 --- !u!50 &1866598271
@@ -3956,7 +4045,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 16c01291621b2da409e5e9b4f81bf56a, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3986,3 +4075,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1866598273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866598269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a06d91ea1d55f743a806fa3b760ed55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  inputUp: 119
+  inputDown: 115
+  inputLeft: 97
+  inputRight: 100
+  Up: {fileID: 1648855756}
+  Down: {fileID: 490803190}
+  Left: {fileID: 1706790264}
+  Right: {fileID: 20740829}
