@@ -15,6 +15,7 @@ public class PlayerMovment : MonoBehaviour
     public Animations Down;
     public Animations Left;
     public Animations Right;
+    public Animations Death;
     private Animations activeAnimation;
 
     private void Awake()
@@ -46,5 +47,28 @@ public class PlayerMovment : MonoBehaviour
         Right.enabled = spriteRenderer == Right;
         activeAnimation = spriteRenderer;
         activeAnimation.idlle = direction == Vector2.zero;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Explosion")) OnDeath();
+    }
+
+    private void OnDeath()
+    {
+        enabled = false;
+        GetComponent<BombControler>().enabled = false;
+        Up.enabled = false;
+        Down.enabled = false;
+        Left.enabled = false;
+        Right.enabled = false;
+        Death.enabled = true;
+        Invoke(nameof(OnDeathEnded), 1.25f);
+    }
+
+    private void OnDeathEnded()
+    {
+        gameObject.SetActive(false);
+        FindObjectOfType<GameManager>().WinState();
     }
 }
